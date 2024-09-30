@@ -1,0 +1,53 @@
+@media (min-width: 1200px){
+    
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    border: 2px solid gray;
+    box-shadow: 2px;
+}
+header{
+    /* background-color: rgb(138, 96, 96); */
+    flex-basis: 100%;
+}
+h1{
+    text-align: center;
+}
+aside{
+flex-basis: 15%;
+/* background-color: yellowgreen; */
+display: flex;
+align-items: center;
+justify-content: start;
+
+}
+h2{
+    text-align: center;
+}
+section{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+main{
+    flex-basis: 85%;
+/* background-color: rebeccapurple; */
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+footer{
+    flex-basis: 100%;
+    /* background-color: rgb(53, 53, 200); */
+}
+p{
+    text-align: center;
+}
+}
